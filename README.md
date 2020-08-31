@@ -1,5 +1,5 @@
 # totem
-<img src="figures/totem_logo.png" width="150">
+<img src="figures/totem_logo.png" width="250">
 
 ## Introduction
 totem is a new type of barcode designed to be quickly parsed and easily detected. Other barcode formats like QR rely on clunky marking that aren't easily found
