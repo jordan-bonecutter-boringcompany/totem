@@ -85,7 +85,7 @@ def read_totem(totem_image):
 
 
 def main():
-  image = cv.imread('../images/detected.png')
+  image = cv.imread('../../images/detected.png')
   code = read_totem(image)
   print(code)
 

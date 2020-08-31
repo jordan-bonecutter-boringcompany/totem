@@ -71,7 +71,7 @@ class TotemGenerator:
 def main():
   generator = TotemGenerator(1500)
   totem = generator.generate(0b1110011000010100101101010)
-  cv.imwrite('../images/totem.png', totem)
+  cv.imwrite('../../images/totem.png', totem)
 
 
 if __name__ == '__main__':
