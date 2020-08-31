@@ -1,0 +1,5 @@
+images/*
+*.png
+*.dSYM
+*.o
+__pycache__/*
