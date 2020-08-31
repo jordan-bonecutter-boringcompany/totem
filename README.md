@@ -1,4 +1,4 @@
-# totem
+# totem - A Light 2 Dimensional Barcode
 <img src="figures/totem_logo.png" width="250">
 
 ## Introduction
