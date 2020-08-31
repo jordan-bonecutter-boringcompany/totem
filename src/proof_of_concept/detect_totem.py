@@ -34,13 +34,13 @@ def detect_totem(image):
 
 
 def main():
-  image = cv.imread('images/totem_testimage10.png')
+  image = cv.imread('../images/totem_testimage10.png')
   detected = detect_totem(image)
   if detected is None:
     print('No totems found')
     return 0
 
-  cv.imwrite('images/detected.png', detected)
+  cv.imwrite('../images/detected.png', detected)
   
 if __name__ == '__main__':
   main()

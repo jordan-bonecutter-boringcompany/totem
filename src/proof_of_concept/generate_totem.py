@@ -60,6 +60,7 @@ class TotemGenerator:
         self._context.arc(center[0], center[1], ring_thickness * (ring - 0.5), angle_start, angle_end+0.01)
         self._context.stroke()
 
+    # do outer ring
     self._context.set_source_rgb(0, 0, 0)
     self._context.arc(center[0], center[1], ring_thickness * 5.5,  - math.pi/2 + math.pi/6, -math.pi/2 - math.pi/6)
     self._context.stroke()
@@ -70,7 +71,7 @@ class TotemGenerator:
 def main():
   generator = TotemGenerator(1500)
   totem = generator.generate(0b1110011000010100101101010)
-  cv.imwrite('totem.png', totem)
+  cv.imwrite('../images/totem.png', totem)
 
 
 if __name__ == '__main__':
