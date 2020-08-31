@@ -1,5 +1,5 @@
 # totem
-![totem logo](figures/totem_logo.pdf)
+![totem logo](figures/totem_logo.png)
 A Two Dimensional Barcode Optimized for Quick Detection
 
 ## Introduction
