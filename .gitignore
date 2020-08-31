@@ -3,3 +3,5 @@ images/*
 *.dSYM
 *.o
 __pycache__/*
+.DS_Store
+.gitignore
